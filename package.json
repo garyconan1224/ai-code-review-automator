@@ -1,0 +1,56 @@
+{
+  "name": "ai-code-review-automator",
+  "version": "0.1.0",
+  "description": "AI-powered automated code review tool for GitHub/GitLab. Helps maintainers automate code reviews, improve code quality, and reduce manual review workload.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "ai",
+    "code-review",
+    "github",
+    "gitlab",
+    "automation",
+    "openai",
+    "code-quality",
+    "devtools"
+  ],
+  "author": "Gary Conan <asd123wsx123@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garyconan1224/ai-code-review-automator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/garyconan1224/ai-code-review-automator/issues"
+  },
+  "homepage": "https://github.com/garyconan1224/ai-code-review-automator#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@octokit/rest": "^19.0.0",
+    "dotenv": "^16.0.0",
+    "openai": "^4.0.0",
+    "yaml": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/node": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "prettier": "^3.0.0",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}
