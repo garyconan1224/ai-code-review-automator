@@ -141,3 +141,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Gary Conan - asd123wsx123@gmail.com
 
 Project Link: [https://github.com/garyconan1224/ai-code-review-automator](https://github.com/garyconan1224/ai-code-review-automator)
+## 🏆 灵感来源
+
+本项目受到快刀青衣文章 **《我用"龙虾"搭的梦幻11人和做的十件事》** 的启发，
+采用了类似的"梦幻11人"多agent架构理念，构建了一个强大的AI代码审查系统。
+
