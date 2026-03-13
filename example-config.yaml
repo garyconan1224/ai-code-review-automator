@@ -1,0 +1,38 @@
+# AI Code Review Automator Configuration
+rules:
+  security:
+    enabled: true
+    severity: high
+  
+  code-quality:
+    enabled: true
+    max-complexity: 10
+  
+  best-practices:
+    enabled: true
+    languages:
+      - javascript
+      - typescript
+      - python
+      - java
+      - go
+
+ai:
+  provider: openai
+  model: gpt-4
+  max-tokens: 2000
+
+github:
+  org: my-organization
+  repos:
+    - my-repo-1
+    - my-repo-2
+  events:
+    - pull_request
+    - push
+
+reporting:
+  output: 
+    - console
+    - github-comment
+  format: markdown
